@@ -8,8 +8,8 @@ import 'package:flutter/material.dart'; // Import for showing dialogs
 
 class ChatService {
   // Base URL for your API
-  // static const String baseUrl = "https://study-buddy-backend-2-ca808db2e238.herokuapp.com";
-  static const String baseUrl = "http://127.0.0.1:8000";
+  static const String baseUrl = "https://intelligent-study-buddy-backend-prakashash18.replit.app";
+  // static const String baseUrl = "http://127.0.0.1:8000";
 
   // Method to get the ID token
   static Future<String> getIdToken() async {

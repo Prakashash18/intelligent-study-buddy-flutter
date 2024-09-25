@@ -1,11 +1,10 @@
 import 'dart:io';
 import 'package:http/http.dart' as http;
 
-
-
 Future<void> uploadFile(File file) async {
   // Replace with your actual API endpoint
-  final apiEndpoint = 'http://localhost:8000/upload_file';
+  final apiEndpoint =
+      'https://intelligent-study-buddy-backend-prakashash18.replit.appupload_file';
 
   try {
     // Check if the file exists and is readable
